@@ -1,0 +1,136 @@
+/* Reset básico de margin e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos Globais (Fontes e Cores) */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+/* Estilização do Cabeçalho (Nome do Portal) */
+.header-portal {
+    background-color: #24c432; /* Azul escuro */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-portal h1 {
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+/* Container centralizado usando width e margin */
+.container-noticia {
+    width: 800px;
+    margin: 30px auto; /* Centraliza horizontalmente */
+    background-color: #ffffff;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+}
+
+/* Categoria da Notícia (usando border-left) */
+.categoria {
+    display: inline-block;
+    color: #009c3b; /* Verde */
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-left: 4px solid #ffdf00; /* Amarelo */
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+/* Título Principal */
+.titulo-principal {
+    font-size: 36px;
+    line-height: 1.2;
+    color: #111;
+    margin-bottom: 15px;
+}
+
+/* Subtítulo */
+.subtitulo {
+    font-size: 20px;
+    font-weight: normal;
+    color: #555;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+/* Autor e Data */
+.autor-data {
+    font-size: 14px;
+    color: #777;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+/* Imagem Principal */
+.imagem-principal {
+    width: 100%; /* Ocupa a largura total do container */
+    height: auto;
+    border: 3px solid #24c432; /* Borda amarela */
+    margin-bottom: 25px;
+    border-radius: 10px; /* Borda arredondada */
+}
+
+/* Parágrafos de Texto */
+.texto-noticia {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Frase em Destaque */
+.destaque {
+    background-color: #f9f9f9;
+    border-left: 6px solid #009c3b; /* Verde */
+    padding: 20px;
+    margin: 30px 0;
+}
+
+.destaque p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+    font-style: italic;
+}
+
+/* Link "Leia mais" e Hover */
+.link-leia-mais {
+    display: inline-block;
+    background-color: #00a529;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px 25px;
+    border: 2px solid #037e0a;
+    transition: background-color 0.3s, color 0.3s; /* Transição suave */
+}
+
+.link-leia-mais:hover {
+    background-color: #009c3b; /* Muda para verde ao passar o mouse */
+    color: #ffffff;
+    text-decoration: underline; /* Adiciona sublinhado no hover */
+    border-color: #009c3b;
+    border-radius: 6px;
+}
+
+/* Rodapé */
+.footer-pagina {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #777;
+    margin-top: 20px;
+}
